@@ -1,0 +1,17 @@
+{
+    "learning_rate":5e-6,
+    "epoch":2,
+    "gradient_acc":8,
+    "batch_size":4,
+    "max_len":512,
+    "seed":8824,
+    "weight_decay":1e-4,
+    "warmup_rate":0.1,
+    "model_pretrain_dir":"/ps2/rc/zhxu13/pretrained_models/xlmr-large", 
+    "model_save_path":"saved_models/best_mmregressor.pth",
+    "training_set_path":"data/training_set.csv",
+    "testing_set_path":"data/testing_set.csv",
+    "log_path":"log/mmregression.log",
+    "overall_weight":0.75,
+    "rdrop_weight":0.1
+}
