@@ -17,7 +17,7 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 <p align="center">
     <br>
-    <img src="./imgs/system.png" width="40%"/>
+    <img src="./imgs/system.png" width="60%"/>
     <br>
 </p>
 
@@ -26,8 +26,8 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on different language pairs individually is as displayed below:
 
-| Language | en | de | es | pl | tr | ar |  ru | zh | fr | it | es-en | de-en | pl-en | zh-en | es-it | de-fr | de-pl | fr-pl |
-| :------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: | :---------: |
+| **Language** | en | de | es | pl | tr | ar |  ru | zh | fr | it | esen | deen | plen | zhen | esit | defr | depl | frpl |
+| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | **Person's CC** | 87.19 | 84.96 | 86.64 | 75.29 | 83.54 | 79.42 | 78.47 | 76.78 | 86.53 | 86.17 | 86.35 | 85.98 | 88.18 | 81.00 | 81.97 | 68.89 | 64.31 | 82.68 |
 
 # Project Structure
