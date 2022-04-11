@@ -32,8 +32,11 @@ Finally, our system got 0.818 on the evaluation set according to the official sc
 
 # Project Structure
 
-- `data/`: training and testing datasets
-- `log/`: training log file
+- `data/`
+  - `training_set.csv`: an example of training set
+  - `testing_set.csv`: an example of testing set
+- `log/`
+  - `mmregression.log`: an example of training log
 - `pretrained_model/`: pretrained model files like `pytorch_model.bin` and `config.json`
 - `saved_models`: models saved during training
 - `config.json`: configuration file for training parameters
