@@ -24,7 +24,7 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 ## System Performance
 
-Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on different language pairs individually is as displayed below:
+Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on different language pairs individually on the official evaluation set is as displayed below:
 
 | **Language** | en | de | es | pl | tr | ar |  ru | zh | fr | it | esen | deen | plen | zhen | esit | defr | depl | frpl |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
@@ -49,15 +49,29 @@ Finally, our system got 0.818 on the evaluation set according to the official sc
 
 ## Model
 
-In this project, the foundation model we choose is XLM-RoBERTa large and it is easily accessible on [Hugging Face](https://huggingface.co/).
+In this project, the foundation model we choose is XLM-RoBERTa and it is easily accessible on [Hugging Face](https://huggingface.co/).
 
 ## Data
 
-- Download dataset files where the news is provided by links. These files are provided on the official website of this [task](https://competitions.codalab.org/competitions/33835#learn_the_details-timetable).
-- Crawl the news based on the files downloaded. The task organizers offered [a python script](https://github.com/euagendas/semeval_8_2022_ia_downloader) that helps with this. 
-- Make the training and testing datasets. With the help of the functions provided in `utils.py`, you can easily transfer the data crawled into datasets for training. As for the dataset format, you can refer to the files in `data/`.
-- Customize your own function to clean the data like removing the URLs in the texts.
-- Head-tail combination. For the detailed description of this operation, please read our [paper](). Helpful functions are also provided in `utils.py`.
+- Download dataset files where the news is provided via links. 
+  
+  These files are provided on the official website of this [task](https://competitions.codalab.org/competitions/33835#learn_the_details-timetable).
+
+- Crawl the news based on the files downloaded. 
+  
+  The task organizers offered [a python script](https://github.com/euagendas/semeval_8_2022_ia_downloader) that helps with this. 
+
+- Make the training and testing datasets. 
+  
+  With the help of the functions provided in `utils.py`, you can easily transfer the data crawled into datasets for training. As for the dataset format, you can refer to the files in `data/`.
+
+- Clean the texts.
+  
+  Feel free to customize your own function to clean the data like removing the URLs in the texts.
+
+- Combine the head and tail parts. 
+  
+  For the detailed description of this operation, please read our [paper](). Helpful functions are also provided in `utils.py`.
 
 ## Requirements
 
@@ -72,7 +86,7 @@ Main tools and libraries:
 
 # Training
 
-## Parameters Configuarion
+## Parameters Configuration
 
 Customize the training parameters in `config.json` as you need. This is a Json dictionary like:
 
