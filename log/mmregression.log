@@ -1,0 +1,32 @@
+10-04-2022 16:52:04 root:INFO:Params:
+{'learning_rate': 5e-06, 'epoch': 2, 'gradient_acc': 8, 'batch_size': 4, 'max_len': 512, 'seed': 8824, 'weight_decay': 0.0001, 'warmup_rate': 0.1, 'model_pretrain_dir': 'pretrained_models/xlmr-large', 'model_save_dir': 'saved_models/', 'model_save_path': 'saved_models/best_mmregressor.pth', 'training_set_path': 'data/training_set.csv', 'testing_set_path': 'data/testing_set.csv', 'log_path': 'log/mmregression.log', 'overall_weight': 0.75, 'rdrop_weight': 0.1}
+10-04-2022 16:52:23 root:INFO:—————————————————————— Epoch 1 ——————————————————————
+10-04-2022 16:52:40 root:INFO:Epoch 01 | Step 032/320 | Loss 0.9602 | Time 16.87
+10-04-2022 16:52:56 root:INFO:Epoch 01 | Step 064/320 | Loss 0.7350 | Time 32.93
+10-04-2022 16:53:12 root:INFO:Epoch 01 | Step 096/320 | Loss 0.5926 | Time 48.98
+10-04-2022 16:53:28 root:INFO:Epoch 01 | Step 128/320 | Loss 0.5024 | Time 65.02
+10-04-2022 16:53:44 root:INFO:Epoch 01 | Step 160/320 | Loss 0.4448 | Time 81.08
+10-04-2022 16:54:00 root:INFO:Epoch 01 | Step 192/320 | Loss 0.4005 | Time 97.15
+10-04-2022 16:54:16 root:INFO:Epoch 01 | Step 224/320 | Loss 0.3687 | Time 113.24
+10-04-2022 16:54:32 root:INFO:Epoch 01 | Step 256/320 | Loss 0.3424 | Time 129.35
+10-04-2022 16:54:48 root:INFO:Epoch 01 | Step 288/320 | Loss 0.3232 | Time 145.46
+10-04-2022 16:55:04 root:INFO:Epoch 01 | Step 320/320 | Loss 0.3069 | Time 161.59
+10-04-2022 16:55:04 root:INFO:Start evaluating!
+10-04-2022 16:55:52 root:INFO:Current dev pearson is 0.3607, best pearson is 0.3607
+10-04-2022 16:55:52 root:INFO:Time costed : 208.889s 
+
+10-04-2022 16:55:52 root:INFO:—————————————————————— Epoch 2 ——————————————————————
+10-04-2022 16:56:07 root:INFO:Epoch 02 | Step 032/320 | Loss 0.1643 | Time 15.14
+10-04-2022 16:56:22 root:INFO:Epoch 02 | Step 064/320 | Loss 0.1508 | Time 30.29
+10-04-2022 16:56:37 root:INFO:Epoch 02 | Step 096/320 | Loss 0.1555 | Time 45.44
+10-04-2022 16:56:52 root:INFO:Epoch 02 | Step 128/320 | Loss 0.1529 | Time 60.59
+10-04-2022 16:57:07 root:INFO:Epoch 02 | Step 160/320 | Loss 0.1521 | Time 75.72
+10-04-2022 16:57:22 root:INFO:Epoch 02 | Step 192/320 | Loss 0.1507 | Time 90.87
+10-04-2022 16:57:38 root:INFO:Epoch 02 | Step 224/320 | Loss 0.1497 | Time 106.02
+10-04-2022 16:57:53 root:INFO:Epoch 02 | Step 256/320 | Loss 0.1486 | Time 121.17
+10-04-2022 16:58:08 root:INFO:Epoch 02 | Step 288/320 | Loss 0.1492 | Time 136.32
+10-04-2022 16:58:23 root:INFO:Epoch 02 | Step 320/320 | Loss 0.1484 | Time 151.47
+10-04-2022 16:58:23 root:INFO:Start evaluating!
+10-04-2022 16:59:10 root:INFO:Current dev pearson is 0.4619, best pearson is 0.4619
+10-04-2022 16:59:10 root:INFO:Time costed : 198.82s 
+
