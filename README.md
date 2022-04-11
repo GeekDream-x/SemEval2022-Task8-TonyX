@@ -17,7 +17,7 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 <p align="center">
     <br>
-    <img src="./imgs/system.png" width="60%"/>
+    <img src="./imgs/system.png" width="70%"/>
     <br>
 </p>
 
