@@ -1,4 +1,4 @@
-# SemEval2022-Task8-HFL
+# HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity
 
 
 # Introduction
