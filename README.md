@@ -7,12 +7,23 @@ Here, we provide the implementation of our winning system in Semeval2022 Task8 â
 
 For more imformation about the contest, please refer to the official site [Semeval2022-Task8](https://competitions.codalab.org/competitions/33835).
 
-For more detailed description of our system, please refer to our paper [HFL at Semeval2022-Task8]().
+For more detailed description of our system, please refer to our paper [HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity](https://arxiv.org/abs/2204.04844).
 
+Citation:
+```
+@misc{xu2022hfl,
+      title={HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity}, 
+      author={Zihang Xu and Ziqing Yang and Yiming Cui and Zhigang Chen},
+      year={2022},
+      eprint={2204.04844},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 # System Overview
 
-## System Structure
+### System Structure
 
 
 <p align="center">
@@ -22,7 +33,7 @@ For more detailed description of our system, please refer to our paper [HFL at S
 </p>
 
 
-## System Performance
+### System Performance
 
 Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on different language pairs individually on the official evaluation set is as displayed below:
 
@@ -47,11 +58,11 @@ Finally, our system got 0.818 on the evaluation set according to the official sc
 
 # Preparation 
 
-## Model
+### Model
 
 In this project, the foundation model we choose is XLM-RoBERTa and it is easily accessible on [Hugging Face](https://huggingface.co/).
 
-## Data
+### Data
 
 - Download dataset files where the news is provided via links. 
   
@@ -71,9 +82,9 @@ In this project, the foundation model we choose is XLM-RoBERTa and it is easily 
 
 - Combine the head and tail parts. 
   
-  For the detailed description of this operation, please read our [paper](). Helpful functions are also provided in `utils.py`.
+  For the detailed description of this operation, please read our [paper](https://arxiv.org/abs/2204.04844). Helpful functions are also provided in `utils.py`.
 
-## Requirements
+### Requirements
 
 Main tools and libraries:
 
@@ -86,7 +97,7 @@ Main tools and libraries:
 
 # Training
 
-## Parameters Configuration
+### Parameters Configuration
 
 Customize the training parameters in `config.json` as you need. This is a Json dictionary like:
 
@@ -110,7 +121,7 @@ Customize the training parameters in `config.json` as you need. This is a Json d
 }
 ```
 
-## Run command
+### Run command
 
 ```shell
 python  run_reg.py --params config.json
@@ -122,3 +133,4 @@ After running this program, you could check the log messages and model testing r
 # Notice
 
 For copyright reasons, the complete datasets including the augmented one will not be provided here but the method of generating it has been introduced in our paper detailedly.
+
