@@ -3,7 +3,7 @@
 
 # Introduction
 
-Here, we provide the implementation of our winning system in Semeval2022 Task8 —— Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 10 different languages.
+Here, we provide the implementation of our winning system in Semeval-2022 Task8 —— Multilingual News Article Similarity. This is a competition about assessing the similarity of multilingual and crosslingual news articles which covers 18 language pairs.
 
 For more imformation about the contest, please refer to the official site [Semeval2022-Task8](https://competitions.codalab.org/competitions/33835).
 
@@ -35,7 +35,7 @@ Citation:
 
 ### System Performance
 
-Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on different language pairs individually on the official evaluation set is as displayed below:
+Finally, our system got 0.818 on the evaluation set according to the official scoring system and ranked 1st out of more than 30 teams. The performace of our system on individual language pairs on the official evaluation set is as displayed below:
 
 | **Language** | en | de | es | pl | tr | ar |  ru | zh | fr | it | esen | deen | plen | zhen | esit | defr | depl | frpl |
 | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
