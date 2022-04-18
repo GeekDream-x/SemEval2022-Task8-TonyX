@@ -11,14 +11,15 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 Citation:
 ```
-@misc{xu2022hfl,
-      title={HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity}, 
-      author={Zihang Xu and Ziqing Yang and Yiming Cui and Zhigang Chen},
-      year={2022},
-      eprint={2204.04844},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{
+xu2022hfl,
+title={{HFL} at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity},
+author={Zihang Xu and Ziqing Yang and Yiming Cui and Zhigang Chen},
+booktitle={The 16th International Workshop on Semantic Evaluation},
+year={2022},
+url={https://openreview.net/forum?id=H-xbL04qlq}
 }
+
 ```
 
 # System Overview
