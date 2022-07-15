@@ -9,7 +9,7 @@ We proposed a linguistics-inspired model trained with a few task-specific strate
 
 For more imformation about the contest, please refer to the official site [Semeval2022-Task8](https://competitions.codalab.org/competitions/33835).
 
-For more detailed description of our system, please refer to our paper [HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity](https://arxiv.org/abs/2204.04844).
+For more detailed description of our system, please refer to our paper [HFL at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity](https://aclanthology.org/2022.semeval-1.157/).
 
 Citation:
 ```
