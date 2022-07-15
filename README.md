@@ -13,13 +13,20 @@ For more detailed description of our system, please refer to our paper [HFL at S
 
 Citation:
 ```
-@inproceedings{
-xu2022hfl,
-title={{HFL} at SemEval-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity},
-author={Zihang Xu and Ziqing Yang and Yiming Cui and Zhigang Chen},
-booktitle={The 16th International Workshop on Semantic Evaluation},
-year={2022},
-url={https://openreview.net/forum?id=H-xbL04qlq}
+@inproceedings{xu-etal-2022-hfl,
+    title = "{HFL} at {S}em{E}val-2022 Task 8: A Linguistics-inspired Regression Model with Data Augmentation for Multilingual News Similarity",
+    author = "Xu, Zihang  and
+      Yang, Ziqing  and
+      Cui, Yiming  and
+      Chen, Zhigang",
+    booktitle = "Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.semeval-1.157",
+    pages = "1114--1120",
+    abstract = "This paper describes our system designed for SemEval-2022 Task 8: Multilingual News Article Similarity. We proposed a linguistics-inspired model trained with a few task-specific strategies. The main techniques of our system are: 1) data augmentation, 2) multi-label loss, 3) adapted R-Drop, 4) samples reconstruction with the head-tail combination. We also present a brief analysis of some negative methods like two-tower architecture. Our system ranked 1st on the leaderboard while achieving a Pearson{'}s Correlation Coefficient of 0.818 on the official evaluation set.",
 }
 
 ```
