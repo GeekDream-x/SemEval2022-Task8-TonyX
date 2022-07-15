@@ -38,7 +38,7 @@ Citation:
 
 <p align="center">
     <br>
-    <img src="./imgs/systemdiagram-q.png" width="70%"/>
+    <img src="./imgs/systemdiagram-q.png" width="50%"/>
     <br>
 </p>
 
